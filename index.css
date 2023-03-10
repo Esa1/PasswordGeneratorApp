@@ -1,3 +1,52 @@
 body {
     margin: 0;
+    max-height: 678px;
+    max-width: 1253px;
+
 }
+
+/* TOOLS */
+.devborder {
+    border: 2px dashed blue;
+}
+
+#container {
+    height: 550px;
+    width: 550px;
+    margin: 64;
+    padding-left: 52px;
+}
+
+h1 {
+    height: 80px;
+    width: 354px;
+    }
+
+p {
+    height: 80px;
+    width: 354px;
+
+}
+
+button {
+    height: 24px;
+    width: 159px;
+
+}
+#section-divider {
+    height: 1px;
+    width: 446px;
+    
+}
+
+
+#password-container {
+    display: flex;
+}
+
+.password {
+    height: 39px;
+    width: 111px;
+    border-radius: 6px;
+
+    }
