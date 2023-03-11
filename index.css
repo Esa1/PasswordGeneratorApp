@@ -7,7 +7,7 @@ body {
 }
 
 /* TOOLS */
-.devborder {
+.xdevborder {
     border: 2px dashed blue;
 }
 
@@ -22,7 +22,8 @@ body {
 h1 {
     height: 80px;
     width: 354px;
-    }
+    margin: 0;
+}
 .header-part1 {
     font-family: 'Karla', sans-serif;
     color: #FFFFFF;
@@ -33,18 +34,17 @@ h1 {
 }
 
 p {
-    height: 80px;
-    width: 354px;
+    height: 28px;
+    width: 372px;
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
     line-height: 28px;
     color: #D5D4D8;
-    margin: 0;
+    margin-top: 0;
 }
 
 button {
-    gap: 12px;
     font-family: Inter;
     font-size: 16px;
     font-weight: 500;
@@ -55,9 +55,11 @@ button {
     border-radius: 6px;
     padding: 9px 17px 9px 15px;
     gap: 12px;
+    margin-top: 51px;
 }
 
 #section-divider {
+    margin-top: 44px;
     height: 1px;
     width: 446px;
     background: #10B981;
@@ -67,7 +69,9 @@ button {
 
 #password-container {
     display: flex;
-    margin-top: 79px;
+    margin-top: 44px;
+    width: 446px;
+    justify-content: space-between;
 }
 
 .password {
