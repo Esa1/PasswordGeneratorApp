@@ -12,14 +12,13 @@ let pass2 = ''
 let passLen = 15
 
 btnEl.addEventListener("click", () => {
-    console.log(characters.length)
+    pass1 = ''
+    pass2 = ''
     let rand = 0
     for (let i = 0; i < passLen; i++) {
         rand = Math.floor( Math.random() * characters.length )
-        console.log('rand1= ' + rand)
         pass1 += characters[rand]
         rand = Math.floor( Math.random() * characters.length )
-        console.log('rand2= ' + rand)
         pass2 +=  characters[rand]
     }
     password1El.textContent = pass1
