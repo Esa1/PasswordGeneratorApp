@@ -83,3 +83,15 @@ button {
     text-align: center;
     padding-top: 10px;
 }
+
+#length-section {
+    margin-top: 10px;
+}
+
+#label-el {
+    color: #D5D4D8;
+}
+
+#length-input {
+    width: 70px;
+}

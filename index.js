@@ -7,11 +7,14 @@ const characters = [
 const btnEl = document.querySelector('#btn')
 const password1El = document.querySelector('#password1')
 const password2El = document.querySelector('#password2')
+const lengthInputEl = document.querySelector('#length-input')
+
 let pass1 = ''
 let pass2 = ''
-let passLen = 15
 
 btnEl.addEventListener("click", () => {
+    let passLen = lengthInputEl.value
+    console.log(`passLen=${passLen}`)
     pass1 = ''
     pass2 = ''
     let rand = 0
@@ -24,7 +27,12 @@ btnEl.addEventListener("click", () => {
     password1El.textContent = pass1
     password2El.textContent = pass2
 })
-
+/*
+password1El.addEventListener("click", () => {
+    console.log("password1El")
+    let sel = password1El.setSelectionRange(0, password1El.value.length);
+    console.log(sel)
+})*/
 
 
 
